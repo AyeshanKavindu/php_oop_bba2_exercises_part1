@@ -44,6 +44,6 @@ class Game {
 }
 $game = new Game("Call of duty", "Activision", 59.99);     
 
-echo "Game Name: " . $game->getName() . "\n";
-echo "Editor: " . $game->getEditor() . "\n";
-echo "Price: $" . $game->getPrice() . "\n";    
+echo "Game Name: " . $game->getName() . "<br>";
+echo "Editor: " . $game->getEditor() . "<br>";
+echo "Price: $" . $game->getPrice() . "<br>";    
