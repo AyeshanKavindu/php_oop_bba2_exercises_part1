@@ -6,7 +6,6 @@
  * Add static methods add(), subtract(), and multiply().
  * Use these methods to perform mathematical operations on two numbers.
  */
-<?php
 class Math
 {
     public static function add(float $number1, float $number2):float
