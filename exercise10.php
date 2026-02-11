@@ -52,7 +52,6 @@ function getMax(array $numbers): float
     return $max;
 }
 
-// 
 echo "All numbers : " . implode(", ", $numbers) . "<br>";
 echo "Sum: " . getSum($numbers) . "<br>";
 echo "Average: " . getAverage($numbers) . "<br>";

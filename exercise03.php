@@ -48,3 +48,6 @@ class Employee extends Person
         return parent::displayInfo() . ", <br> Salary: $" . number_format($this->salary, 2) . ", Position: " . $this->position;
     }
 }
+
+$employee = new Employee("Ayeshan", "Kavindu", 26, 50000.00, "Software Engineer");
+echo $employee->displayInfo();      
